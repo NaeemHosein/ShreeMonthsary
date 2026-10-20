@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Love, Shreeya • Shreio</title>
+    <meta name="description" content="A pink little world made for Shreeya and Naeem." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Great+Vibes&family=Nunito:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=3" />
+  </head>
+  <body>
+    <div class="petal-layer" aria-hidden="true"></div>
+    <div class="sparkle-layer" aria-hidden="true"></div>
+
+    <header class="nav" id="siteNav">
+      <a class="brand" href="#home">
+        <span class="ship-badge">Shreio</span>
+        <span class="brand-names"><span class="js-him-nick">Naio</span> ♥ <span class="js-her-nick">Shree</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="siteMenu">
+        <a href="#together">Together</a>
+        <a href="#letter">Letter</a>
+        <a href="#garden">Garden</a>
+        <a href="#kitchen">Kitchen</a>
+        <a href="#kingdom">Kingdom</a>
+        <a href="#tea">Tea</a>
+        <a href="#care">Care</a>
+        <a href="#music">Music</a>
+        <a href="#first-kiss">First Kiss</a>
+        <a href="#us">Us</a>
+        <a href="#photos">Photos</a>
+        <a href="#naio-model">Naio's Model</a>
+        <a href="#two-monthsary">Two Monthsary</a>
+        <a href="#magic">Magic</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-badge">I love you Shreeya</div>
+        <p class="eyebrow">for <span class="js-her-nick">Shree</span>, from <span class="js-him-nick">Naio</span></p>
+        <h1 class="js-her-name">Shreeya</h1>
+      </section>
+
+      <section id="together" class="section timer-section">
+        <div class="section-head">
+          <p class="eyebrow">since august 20, 2026 · 8:54 pm</p>
+          <h2>Every second with you</h2>
+          <p>A living count of how long our Shreio story has been blooming. Spoiler Honey Bum Bum, it will never die!!!</p>
+        </div>
+        <div class="timer" id="timer">
+          <div class="time-card"><strong id="years">0</strong><span>Years</span></div>
+          <div class="time-card"><strong id="months">0</strong><span>Months</span></div>
+          <div class="time-card"><strong id="days">0</strong><span>Days</span></div>
+          <div class="time-card"><strong id="hours">0</strong><span>Hours</span></div>
+          <div class="time-card"><strong id="minutes">0</strong><span>Minutes</span></div>
+          <div class="time-card"><strong id="seconds">0</strong><span>Seconds</span></div>
+        </div>
+      </section>
+
+      <section id="letter" class="section">
+        <div class="section-head">
+          <p class="eyebrow">written from the heart</p>
+          <h2>A Sealed Letter for Shreeya</h2>
+          <p>Tap the wax seal to break it open and read what is inside.</p>
+        </div>
+        <div class="mail">
+          <div class="envelope" id="envelope" data-state="sealed">
+            <div class="envelope-front">
+              <p class="stamp">♥</p>
+              <p class="address">
+                To <span class="js-her-nick">Shree</span><br />
+                <span class="js-her-name">Shreeya</span>
+              </p>
+              <p class="from-line">from <span class="js-him-nick">Naio</span></p>
+              <button class="wax" id="waxBtn" type="button" aria-expanded="false">
+                Open
+              </button>
+            </div>
+            <div class="flap" aria-hidden="true"></div>
+            <article class="stationery" id="stationery" tabindex="0">
+              <p class="script">My Dearest Shree,</p>
+              <p>
+                When we first met, I never thought I would end up with the most incredible and breathtaking person that this existence has to offer. You are truly incomparable, my love. In every aspect, I love your soul and your body with every piece of me and more.
+              </p>
+              <p>
+                My princess, you are truly my biggest dream and goal in life. I want to spend my entire life making you happy, telling you how beautiful you are, caring for you, nurturing you, marrying you, and having beautiful children together who will carry the genes of their gorgeous mother, mixed with mine. I am fully devoted to you in every aspect of my life, and my soul belongs to you. I will always care for you, and I will never hurt you or try to in any way, for my love and care are unconditional and endless, without ever fading.
+              </p>
+              <p>
+                No matter what lies ahead or what times we may face, my heart and soul will always belong to you, my perfect Queen. I will always love you unconditionally, and it will never fade or weaken. Every piece of you is so perfectly put together, and I wish you could see yourself through my eyes, but that would take your breath away, just like you take mine away.
+              </p>
+              <p>I love you eternally, my Princess. ❤️</p>
+              <p class="script closer">Forever yours, Naio</p>
+            </article>
+          </div>
+          <div class="letter-actions">
+            <p class="hint" id="letterHint">Tap the wax seal first. Then tap the letter to pull it out.</p>
+            <button class="btn ghost" id="resealBtn" type="button" hidden>Seal it again</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="garden" class="section">
+        <div class="section-head">
+          <p class="eyebrow">a pink garden</p>
+          <h2>Flowers that feel like you</h2>
+          <p>Tap a bloom to discover its poetic meaning. Hover to watch it bloom in glowing light.</p>
+        </div>
+        <div class="filters" id="flowerFilters">
+          <button class="chip active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="china-rose" type="button">China Rose</button>
+          <button class="chip" data-filter="dahlia" type="button">Dahlia</button>
+          <button class="chip" data-filter="chrysanthemum" type="button">Chrysanthemum</button>
+        </div>
+        <div class="flower-grid" id="flowerGrid"></div>
+      </section>
+
+      <section id="kitchen" class="section kitchen-section">
+        <div class="section-head">
+          <p class="eyebrow">her vegetarian kitchen</p>
+          <h2>Cook Shree’s Favourites</h2>
+          <p>Tap a dish, assemble the ingredients, then plate it for her. Vegetarian sushi, veggie tacos, Domino’s chocolate biscuit, Oreos, and cranberry juice - made with love.</p>
+        </div>
+        <div class="food-picker" id="foodPicker"></div>
+        <div class="kitchen-bench" id="kitchenBench">
+          <div class="kitchen-copy">
+            <p class="card-kicker" id="recipeKicker">pick a recipe</p>
+            <h3 id="recipeTitle">What shall we make, princess?</h3>
+            <p id="recipeStory">Choose a favourite from above. Then tap every ingredient in any order and press Plate it.</p>
+          </div>
+          <div class="ingredient-tray" id="ingredientTray"></div>
+          <div class="plating-row">
+            <div class="plate" id="foodPlate" aria-live="polite">
+              <div class="plate-inner" id="plateInner">
+                <span class="plate-empty">Waiting for her order ♥</span>
+              </div>
+            </div>
+            <div class="kitchen-actions">
+              <button class="btn" id="plateDishBtn" type="button" disabled>Plate it</button>
+              <button class="btn ghost" id="resetDishBtn" type="button">Start over</button>
+              <p class="count-line" id="kitchenProgress">0 dishes made for Shree</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kingdom" class="section kingdom-section">
+        <div class="section-head">
+          <p class="eyebrow">kingdom of shreio</p>
+          <h2>Our Castle, Our Forever</h2>
+          <p>Tap the towers, open the gates, raise our flag, and light the lanterns. This whole kingdom is yours, my Queen.</p>
+        </div>
+        <div class="kingdom-layout">
+          <div class="castle-stage" id="castleStage">
+            <div class="sky-orbs" aria-hidden="true"></div>
+            <button class="castle-flag" id="raiseFlagBtn" type="button" aria-pressed="false" title="Raise the Shreio flag">
+              <span class="flag-pole"></span>
+              <span class="flag-cloth">
+                <img src="images/custom_flag.png" alt="Shreio Flag" class="flag-image" loading="lazy" decoding="async" />
+              </span>
+            </button>
+            <div class="castle">
+              <button class="tower west" data-room="west" type="button" aria-label="West lookout tower">
+                <span class="turret"></span>
+                <span class="window lantern" data-lantern></span>
+                <span class="window lantern" data-lantern></span>
+              </button>
+              <button class="keep" data-room="throne" type="button" aria-label="Throne room">
+                <span class="keep-roof"></span>
+                <span class="window tall lantern" data-lantern></span>
+                <span class="crown-heart">♥</span>
+              </button>
+              <button class="tower east" data-room="east" type="button" aria-label="East bedroom tower">
+                <span class="turret"></span>
+                <span class="window lantern" data-lantern></span>
+                <span class="window lantern" data-lantern></span>
+              </button>
+              <button class="hall" data-room="hall" type="button" aria-label="Great hall">
+                <span class="window lantern" data-lantern></span>
+                <span class="window lantern" data-lantern></span>
+                <span class="window lantern" data-lantern></span>
+              </button>
+              <button class="gate" id="castleGate" data-room="courtyard" type="button" aria-pressed="false" aria-label="Open the castle gates">
+                <span class="gate-arch"></span>
+                <span class="gate-doors"></span>
+              </button>
+            </div>
+            <div class="moat"></div>
+            <div class="kingdom-controls">
+              <button class="btn tiny" id="lightLanternsBtn" type="button">Light lanterns</button>
+              <button class="btn tiny ghost" id="openGateBtn" type="button">Open the gates</button>
+            </div>
+          </div>
+          <article class="room-card" id="roomCard">
+            <p class="card-kicker" id="roomKicker">enter the kingdom</p>
+            <h3 id="roomTitle">Welcome home, my Queen</h3>
+            <p id="roomStory">Tap a tower, the keep, or the gates. Every room in this castle was built so we can live a whole lifetime inside it together.</p>
+            <ul class="kingdom-log" id="kingdomLog"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="tea" class="section tea-section">
+        <div class="section-head">
+          <p class="eyebrow">afternoon with you</p>
+          <h2>Our Tea Party</h2>
+          <p>Pour for her first. Fill both cups, set out Oreos and biscuit, then toast. A quiet table just for Shreio.</p>
+        </div>
+        <div class="tea-table">
+          <div class="tea-set">
+            <button class="teapot" id="teapotBtn" type="button" aria-label="Pour the tea">
+              <span class="pot-lid"></span>
+              <span class="pot-body"></span>
+              <span class="pot-spout"></span>
+              <span class="pot-handle"></span>
+              <span class="steam" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="pour-label">Pour</span>
+            </button>
+            <div class="cups">
+              <div class="teacup hers" id="cupHer" data-filled="0">
+                <div class="cup-fill"></div>
+                <span>Shree</span>
+              </div>
+              <div class="teacup his" id="cupHim" data-filled="0">
+                <div class="cup-fill"></div>
+                <span>Naio</span>
+              </div>
+            </div>
+            <div class="treats" id="teaTreats">
+              <button class="treat" data-treat="oreo" type="button">Oreos</button>
+              <button class="treat" data-treat="biscuit" type="button">Chocolate biscuit</button>
+              <button class="treat" data-treat="juice" type="button">Cranberry juice</button>
+            </div>
+          </div>
+          <div class="tea-panel">
+            <p class="script" id="teaLine">Shall we sit together, my love?</p>
+            <p id="teaStory">Tap the teapot to pour. Tap the treats to set them on the table. When both cups are warm, we can cheers.</p>
+            <button class="btn" id="cheersBtn" type="button" disabled>Cheers, my love</button>
+            <p class="count-line" id="cheersCount">0 tea toasts together</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="care" class="section care-section">
+        <div class="section-head">
+          <p class="eyebrow">when you need rest</p>
+          <h2>I Will Always Take Care of You</h2>
+          <p>When you are not feeling well, Naio stays. Bedside, devoted, unhurried. I will take care of literally everything. Whether your tummy aches or you need soothing (even your sweet <em>mimmi</em>), this life is for loving and caring for you, unconditionally.</p>
+        </div>
+        <div class="care-layout">
+          <div class="care-panel">
+            <p class="script">My sweet princess, rest.</p>
+            <p>If you are unwell, I will sit with you until it eases. I will take care of literally everything - bring water, a hot bottle, quiet, and my whole attention. I will live devoted to caring for you - not only on the hard days, but every day, without condition.</p>
+            <div class="care-actions" id="careActions">
+              <button class="btn tiny" data-care="bedside" type="button">Stay by her bedside</button>
+              <button class="btn tiny" data-care="tummy" type="button">Soothe her tummy</button>
+              <button class="btn tiny" data-care="blanket" type="button">Tuck the blanket</button>
+              <button class="btn tiny" data-care="tea" type="button">Bring warm sips</button>
+              <button class="btn tiny" data-care="juice" type="button">Cranberry juice</button>
+              <button class="btn tiny" data-care="rub-bum" type="button">Rub her bum bum</button>
+              <button class="btn tiny" data-care="poured-tea" type="button">Poured Tea</button>
+              <button class="btn tiny" data-care="vow" type="button">Promise forever care</button>
+            </div>
+            <blockquote class="care-vow" id="careVow">Tap a care to see how I look after you.</blockquote>
+            <ul class="care-log" id="careLog"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="music" class="section">
+        <div class="section-head">
+          <p class="eyebrow">shreio's jukebox</p>
+          <h2>Shreeya's Favourite Music</h2>
+          <p>Her soundtrack of love: press play to hear the melodies that remind us of us.</p>
+        </div>
+
+        <div class="music-player-container">
+          <!-- Main Player Card -->
+          <div class="main-player-card" id="mainMusicPlayer">
+            <div class="player-top">
+              <div class="album-art-wrap">
+                <div class="album-artwork" id="playerCover">
+                  <span class="art-track-initials" id="artTrackInitials">SW</span>
+                </div>
+              </div>
+              <div class="track-info">
+                <div class="track-header-meta">
+                  <span class="fav-tag" id="favTag">HER #1 FAVORITE SONG</span>
+                  <div class="eq-bars" id="eqBars">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+                <h3 id="currentSongTitle">Sweater Weather</h3>
+                <p id="currentSongArtist">The Neighbourhood</p>
+              </div>
+            </div>
+
+            <div class="player-controls">
+              <div class="time-row">
+                <span id="currentTime">0:00</span>
+                <div class="progress-container">
+                  <input type="range" id="songProgress" value="0" min="0" max="100" />
+                </div>
+                <span id="totalDuration">0:00</span>
+              </div>
+
+              <div class="buttons-row">
+                <div class="playback-controls">
+                  <button class="control-btn nav-btn" id="prevTrackBtn">PREV</button>
+                  <button class="control-btn play-btn-main" id="playPauseBtn">PLAY</button>
+                  <button class="control-btn nav-btn" id="nextTrackBtn">NEXT</button>
+                </div>
+
+                <div class="volume-control">
+                  <button class="vol-btn" id="muteBtn" type="button">VOLUME</button>
+                  <input type="range" id="volumeSlider" value="80" min="0" max="100" />
+                  <label class="vol-btn load-mp3-label" title="Load local MP3 file for this song">
+                    LOAD MP3
+                    <input type="file" id="trackMp3Input" accept="audio/*" hidden />
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Song Playlist List -->
+          <div class="playlist-card">
+            <h3>Shreeya's Playlist</h3>
+            <ul class="song-list" id="playlist">
+              <!-- Dynamically populated -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="first-kiss" class="section first-kiss-section">
+        <div class="section-head">
+          <p class="eyebrow">a quiet future moment</p>
+          <h2>How Our First Kiss Will Feel</h2>
+          <p>The soft silence before, the heartbeat in the air, and the moment when our lips finally meet.</p>
+        </div>
+
+        <div class="kiss-experience-card">
+          <div class="kiss-poetry">
+            <p class="script-big">"The world slows down, everything turns quiet, and all that remains is you."</p>
+            <p>
+              Before our lips touch, there is that soft breath where time stops. Your eyes soften, my hands gently hold yours, and the whole world fades out. That exact moment is pure magic: soft, warm, unforgettable and most importantly Honey Bum Bum, it's filled with Love.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="us" class="section">
+        <div class="section-head">
+          <p class="eyebrow">two hearts, one page</p>
+          <h2>The Shreio Cards</h2>
+          <p>Main photos, nicknames, little facts, and all the adjectives that fit us best.</p>
+        </div>
+        <div class="cards-pair">
+          <article class="person-card" data-who="her" id="card-her">
+            <p class="card-kicker">for her</p>
+            <label class="portrait">
+              <img id="photo-her" alt="Shreeya" loading="eager" decoding="async" style="object-position: top center;" />
+              <span class="portrait-cta">Add Shree’s photo</span>
+              <input type="file" accept="image/*" data-portrait="her" hidden />
+            </label>
+            <input class="name-input" data-card="her" data-field="name" value="Shreeya" aria-label="Her name" />
+            <label class="nick-row">nickname
+              <input data-card="her" data-field="nick" value="Shree" aria-label="Her nickname" />
+            </label>
+            <textarea class="bio" data-card="her" data-field="bio" rows="2" aria-label="A line about her">The girl who turns ordinary hours pink.</textarea>
+            <div class="facts">
+              <label>Mood <input data-card="her" data-field="mood" value="glowing" /></label>
+              <label>Favorite flower <input data-card="her" data-field="flower" value="China Rose" /></label>
+              <label>Favorite song <input data-card="her" data-field="song" value="Sweater Weather" /></label>
+              <label>Little fact <input data-card="her" data-field="fact" value="Laughs like sunshine" /></label>
+              <label>She says <input data-card="her" data-field="says" value="stay" /></label>
+            </div>
+            <div class="card-hearts">
+              <button class="btn tiny" type="button" data-send-heart="her">Send her a heart</button>
+              <span><strong data-heart-count="her">0</strong> hearts</span>
+            </div>
+            <div class="qualities" id="herQualities"></div>
+            <form class="add-quality" data-person="her">
+              <input type="text" placeholder="Add a trait..." aria-label="Add a quality for her" />
+              <button class="btn tiny" type="submit">Add</button>
+            </form>
+          </article>
+          <article class="person-card him" data-who="him" id="card-him">
+            <p class="card-kicker">for him</p>
+            <label class="portrait">
+              <img id="photo-him" alt="Naeem" loading="eager" decoding="async" style="object-position: top center;" />
+              <span class="portrait-cta">Add Naio’s photo</span>
+              <input type="file" accept="image/*" data-portrait="him" hidden />
+            </label>
+            <input class="name-input" data-card="him" data-field="name" value="Naeem" aria-label="His name" />
+            <label class="nick-row">nickname
+              <input data-card="him" data-field="nick" value="Naio" aria-label="His nickname" />
+            </label>
+            <textarea class="bio" data-card="him" data-field="bio" rows="2" aria-label="A line about him">The boy who built her a pink internet garden.</textarea>
+            <div class="facts">
+              <label>Mood <input data-card="him" data-field="mood" value="devoted" /></label>
+              <label>Favorite flower <input data-card="him" data-field="flower" value="Dahlia" /></label>
+              <label>Favorite song <input data-card="him" data-field="song" value="ours too" /></label>
+              <label>Little fact <input data-card="him" data-field="fact" value="Hers, obviously" /></label>
+              <label>He says <input data-card="him" data-field="says" value="always" /></label>
+            </div>
+            <div class="card-hearts">
+              <button class="btn tiny" type="button" data-send-heart="him">Send him a heart</button>
+              <span><strong data-heart-count="him">0</strong> hearts</span>
+            </div>
+            <div class="qualities" id="himQualities"></div>
+            <form class="add-quality" data-person="him">
+              <input type="text" placeholder="Add a trait..." aria-label="Add a quality for him" />
+              <button class="btn tiny" type="submit">Add</button>
+            </form>
+          </article>
+        </div>
+      </section>
+
+      <section id="photos" class="section">
+        <div class="section-head">
+          <p class="eyebrow">our little album</p>
+          <h2>Pictures of Us</h2>
+          <p>A beautiful living collection of our sweetest memories together.</p>
+        </div>
+        <div class="album-bar">
+          <div class="filters">
+            <button class="chip active" data-album="all" type="button">All</button>
+            <button class="chip" data-album="her" type="button"><span class="js-her-nick">Shree</span></button>
+            <button class="chip" data-album="him" type="button"><span class="js-him-nick">Naio</span></button>
+            <button class="chip" data-album="us" type="button">Together</button>
+          </div>
+          <div class="album-tools">
+            <label class="target-gallery-label">
+              Add To
+              <select id="photoTargetGallery" title="Select target gallery category">
+                <option value="auto">✨ Active Tab</option>
+                <option value="her">💗 Shreeya (Shree)</option>
+                <option value="him">💙 Naeem (Naio)</option>
+                <option value="us">💖 Together</option>
+              </select>
+            </label>
+            <label>
+              Sort
+              <select id="photoSort">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+                <option value="favorites">Favorites first</option>
+                <option value="name">Name A-Z</option>
+              </select>
+            </label>
+            <label class="btn">
+              Add photos
+              <input id="photoInput" type="file" accept="image/*" multiple hidden />
+            </label>
+          </div>
+        </div>
+        <div class="photo-grid" id="photoGrid"></div>
+      </section>
+
+      <section id="naio-model" class="section">
+        <div class="section-head">
+          <p class="eyebrow">forever cheerleader</p>
+          <h2>Naio's Personal Model</h2>
+          <p>Our personal private stage for my Princess. You are my model and mines alone. Your body is the only beautiful body in every existence and I praise it with all and more of my soul and heart.</p>
+        </div>
+        <div class="model-stage-container">
+          <div class="model-stage">
+            <div class="stage-background"></div>
+            <div class="stage-floor"></div>
+            <div class="spotlight"></div>
+            <div class="flag-display">
+              <img src="images/custom_flag.png" alt="Shreeya Flag" class="model-flag-image" loading="lazy" decoding="async" />
+            </div>
+          </div>
+          <div class="model-caption">
+            <p class="model-text">I will always cheer you on in everything in life and more my Queen, my baby girly bum bum. I love you</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="two-monthsary" class="section">
+        <div class="section-head">
+          <p class="eyebrow">october 20, 2026</p>
+          <h2>Two Monthsary Letter</h2>
+          <p>Tap the heart to reveal our monthsary message.</p>
+        </div>
+        <div class="monthsary-card" id="monthsaryCard" data-state="closed">
+          <div class="monthsary-front">
+            <div class="monthsary-heart" id="monthsaryHeartBtn">
+              <span class="heart-icon">♥</span>
+            </div>
+            <p class="monthsary-date">Oct 20, 2026</p>
+            <p class="monthsary-label">Tap to open</p>
+          </div>
+          <div class="monthsary-back" id="monthsaryBack">
+            <article class="monthsary-message">
+              <p class="script">My Dearest Shree,</p>
+              <p>
+                Happy 2 monthsary my baby girl!!! Im so glad I found you, my soulmate, my meri jaan, my baby girl. Im the happiest boy ever with you and I can't live without you. You are my life and my everything, you have my heart and our souls are wrapped with eachother.
+              <p>
+                Let me remind you my love, that I will always be by your side and help you every, single, thing and cheer you on always! You will always be the only one to nurture my heart my baby, just like I will for yours! You are my first true and only last love my princess. You are the best girlfriend ever!!! I could not ask for anyone better because theres no one even good, no one like you my girl. 
+                You are my everything, and I love EVERY SINGLE PART OF YOU, all the same and without decrease. I love and care for you unconditionally. I do not need a reason to love you for there should not be one. I love you so much MUAH MUAH MUAH MUAH MUAH so much kisses my baby girl. YUH CUTEEEEEEE.
+              <p>Happy Two Monthsary, my love! I love you beyond words. ❤️</p>
+              <p class="script closer">Forever yours, Naio</p>
+            </article>
+            <button class="btn ghost" id="monthsaryCloseBtn" type="button">Close letter</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="magic" class="section extras">
+        <div class="section-head">
+          <p class="eyebrow">tiny sweetness</p>
+          <h2>More Pink Magic</h2>
+          <p>Send virtual kisses, collect sweet love reasons, and trigger floating magic!</p>
+        </div>
+        <div class="extra-grid">
+          <article class="mini-card kiss-card">
+            <h3>Kiss Counter</h3>
+            <p>Tap to send a soft virtual kiss.</p>
+            <button class="btn kiss-btn" id="kissBtn" type="button">Send a kiss</button>
+            <p class="count-line"><span id="kissCount">0</span> kisses sent</p>
+            <div class="kiss-milestone" id="kissMilestone">First kiss milestone unlocked! ♥</div>
+          </article>
+          
+          <article class="mini-card reasons-card">
+            <h3>Reasons Why I Love You</h3>
+            
+            <div class="reason-spotlight" id="reasonSpotlight">
+              <span class="spotlight-badge">FEATURED REASON</span>
+              <p id="spotlightText">Loading a sweet reason...</p>
+              <button class="btn ghost tiny" id="newSpotlightBtn" type="button">Shuffle</button>
+            </div>
+
+            <form id="reasonForm">
+              <input id="reasonInput" type="text" placeholder="Write another reason why you adore her..." />
+              <button class="btn tiny" type="submit">Add</button>
+            </form>
+            <ul class="reason-list" id="reasonList"></ul>
+          </article>
+
+          <article class="mini-card magic-wand-card">
+            <h3>Cast Pink Magic</h3>
+            <p>Fill the screen with floating hearts, pink sparkles, and love aura.</p>
+            <button class="btn magic-wand-btn" id="magicWandBtn" type="button">Cast Magic</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with an endless pink heart for <span class="js-her-name">Shreeya</span> • <span class="js-him-nick">Naio</span> ♥ <span class="js-her-nick">Shree</span> (Shreio Forever, I love you so much princess!)</p>
+    </footer>
+
+    <!-- Gallery Selection Modal -->
+    <div class="modal-backdrop" id="galleryPickerModal" hidden aria-hidden="true">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3>Select Gallery Category</h3>
+          <button class="modal-close" id="closeGalleryPickerModal" type="button" aria-label="Close">×</button>
+        </div>
+        <p>Which gallery should these photo(s) be added to?</p>
+        <div class="modal-actions">
+          <button class="btn modal-pick-btn her" data-pick-gallery="her" type="button">💗 Shreeya (<span class="js-her-nick">Shree</span>)</button>
+          <button class="btn modal-pick-btn him" data-pick-gallery="him" type="button">💙 Naeem (<span class="js-him-nick">Naio</span>)</button>
+          <button class="btn modal-pick-btn us" data-pick-gallery="us" type="button">💖 Together</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="album-toast" id="albumToast" hidden></div>
+
+    <!-- Firebase Realtime DB Cloud Sync SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script>
+      if (window.firebase) {
+        firebase.initializeApp({
+          databaseURL: "https://shreio-sync-default-rtdb.firebaseio.com/"
+        });
+      }
+    </script>
+
+    <script src="js/gallery-data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

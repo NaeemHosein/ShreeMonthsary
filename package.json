@@ -1,0 +1,14 @@
+{
+  "name": "my-love-shreeya",
+  "version": "1.0.0",
+  "description": "A pink romantic garden for Shreeya & Naeem (Shreio)",
+  "main": "index.html",
+  "scripts": {
+    "sync": "node sync.js",
+    "sort": "node sync.js",
+    "build": "node sync.js"
+  },
+  "keywords": ["shreeya", "shreio", "love", "gallery"],
+  "author": "Naeem",
+  "license": "ISC"
+}
